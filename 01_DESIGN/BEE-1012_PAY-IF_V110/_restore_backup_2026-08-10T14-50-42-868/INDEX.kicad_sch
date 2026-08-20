@@ -1,0 +1,1238 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4e1c96bc-f1b9-469d-8817-70cb4dc440ed")
+	(paper "A3")
+	(title_block
+		(title "BEE")
+		(date "2026-07-25")
+		(rev "Ver 1.1.0")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 50.8 25.4)
+		(end 381 241.3)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fa12ad17-88e6-4480-894d-cc1e8504ec52")
+	)
+	(text "COMPONENT/FUNCTION"
+		(exclude_from_sim no)
+		(at 311.404 31.75 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "01cf0de9-9436-45b1-9bdd-43b00eab85f8")
+	)
+	(text "[SAMA7G54 2/4] High Speed MPU"
+		(exclude_from_sim no)
+		(at 145.034 158.75 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "02a72d04-01a5-4976-9020-341fdbb5a7dd")
+	)
+	(text "06"
+		(exclude_from_sim no)
+		(at 63.5 107.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "05b328aa-d547-4070-8f7e-0f428f4965cd")
+	)
+	(text "LVDS Phys"
+		(exclude_from_sim no)
+		(at 271.78 95.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "097e6454-8acf-4ff5-a8df-647149fbbd9d")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 63.5 171.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "10408e8e-6ad1-47e7-8eed-aa53894313dc")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 63.5 209.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1d6a8531-5411-4101-b7af-ca6d8bcf33ee")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 228.6 234.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1fcb59fa-9d75-4443-a5dd-9f204e1c81bf")
+	)
+	(text "01"
+		(exclude_from_sim no)
+		(at 63.5 44.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "25ba5011-7d08-4ecf-a17c-4901860c355a")
+	)
+	(text "02"
+		(exclude_from_sim no)
+		(at 63.5 57.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2a3a4341-fe28-4a70-9327-e14be1af06e1")
+	)
+	(text "[SAMA7G54 4/4] Mem Unit MPU"
+		(exclude_from_sim no)
+		(at 140.97 184.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2af8dc16-f22a-4eed-8aa3-9366f6a2829f")
+	)
+	(text "CoverPage"
+		(exclude_from_sim no)
+		(at 106.68 44.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2ff6d3ac-e48a-434c-9b75-720b2a75b6b2")
+	)
+	(text "INDEX"
+		(exclude_from_sim no)
+		(at 28.702 20.066 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 7.62 7.62)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3244be08-8a8c-49ff-b4e0-c266219dd1c7")
+	)
+	(text "28"
+		(exclude_from_sim no)
+		(at 228.6 184.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "330d6132-2921-437e-869e-d0fd9b0e44fd")
+	)
+	(text "PAGE"
+		(exclude_from_sim no)
+		(at 228.6 31.75 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "3933fe3b-7339-4333-b010-6a4fd74db3dc")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 228.6 133.35 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "39f13af2-d460-4cd6-bedb-0811dccfecfb")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 228.6 171.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3d6be973-a09e-4b39-9a66-a6e1b303b609")
+	)
+	(text "WatchDog"
+		(exclude_from_sim no)
+		(at 269.748 82.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3e619645-4ba4-43ef-8198-d7350bbe03f2")
+	)
+	(text "CONNECTOR INTERFACE"
+		(exclude_from_sim no)
+		(at 126.238 133.35 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3f3b9f68-dfff-4c5e-9b56-f3ebea13a776")
+	)
+	(text "Debug Console"
+		(exclude_from_sim no)
+		(at 279.4 44.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4356875c-e5a9-4ddd-bdfa-808bb8490a5b")
+	)
+	(text "/DNP: Do Not Place"
+		(exclude_from_sim no)
+		(at 44.45 270.51 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4a94e8c2-b14f-442f-b7d1-a5f709c135da")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 98.806 95.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4aee7c50-dbe5-4d8e-bd42-f8f9374c8758")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at 228.6 107.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4b75e91b-af7d-4daf-bde8-727923841bfd")
+	)
+	(text "04"
+		(exclude_from_sim no)
+		(at 63.5 82.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4de1f86b-d4ff-4557-b58a-77e87a1d0dd4")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 260.096 120.65 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5b05492d-abcf-40fb-b6c6-2e66383de3fb")
+	)
+	(text "[FPGA 1/4] Power Source FPGA"
+		(exclude_from_sim no)
+		(at 307.848 184.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5dc581b3-988b-42ff-89fe-1f81024fd2fe")
+	)
+	(text "[Exclude] RS485 Phys"
+		(exclude_from_sim no)
+		(at 292.354 133.35 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5f3dceee-46a7-4afc-9f30-1db4659d484f")
+	)
+	(text "17"
+		(exclude_from_sim no)
+		(at 228.6 44.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5fd4a06f-bb48-450b-b4d7-6b5c47b28d84")
+	)
+	(text "[SAMA7G54 3/4] IO MPU"
+		(exclude_from_sim no)
+		(at 129.286 171.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "621d9ecc-e8ae-4d7d-9c49-b36699639f62")
+	)
+	(text "PowerTree"
+		(exclude_from_sim no)
+		(at 106.68 69.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "63d5022b-410c-4029-9540-438dfa6dfd69")
+	)
+	(text "CAN Bus Phys"
+		(exclude_from_sim no)
+		(at 277.622 107.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "64a2095a-2581-4d8b-b505-509220666854")
+	)
+	(text "- V1.0.0"
+		(exclude_from_sim no)
+		(at 86.106 261.112 0)
+		(effects
+			(font
+				(face "Yu Gothic UI Semibold")
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "653dfb58-28d7-44da-944b-4474f0568e70")
+	)
+	(text "21"
+		(exclude_from_sim no)
+		(at 228.6 95.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "686e005a-75b7-45a4-8c7a-fc6080b53ce3")
+	)
+	(text "RTC"
+		(exclude_from_sim no)
+		(at 260.096 70.104 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6a5c7e2c-f8f0-4e8d-93df-119fa457c29e")
+	)
+	(text "COMM"
+		(exclude_from_sim no)
+		(at 96.774 222.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6e3426ac-b468-4851-a57e-bce090408fc0")
+	)
+	(text "18"
+		(exclude_from_sim no)
+		(at 228.6 57.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "707c3465-4260-4c71-8122-efd6d4da7894")
+	)
+	(text "POWER_MEASUREMENT"
+		(exclude_from_sim no)
+		(at 122.174 107.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "876febe2-51d3-45a7-984e-7d0e5cce20df")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 63.5 158.75 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "87adfc24-45a5-413a-bc3b-9ae594a2f80b")
+	)
+	(text "[FPGA 2/4] FPGA IO Part 1"
+		(exclude_from_sim no)
+		(at 302.006 196.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8d6c61e9-9ad5-4716-8318-7ecff6ad4322")
+	)
+	(text "23"
+		(exclude_from_sim no)
+		(at 228.6 120.65 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8e1c733f-34ff-4e4f-ad29-20871b1a03f9")
+	)
+	(text "RS422 Phys"
+		(exclude_from_sim no)
+		(at 273.558 146.05 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8f4560ea-6c9a-44c0-8447-63234c1fae65")
+	)
+	(text "- V1.1.0: Add FPGA - Change to SAMA7G54"
+		(exclude_from_sim no)
+		(at 114.554 266.446 0)
+		(effects
+			(font
+				(face "Yu Gothic UI Semibold")
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "916a90b5-8074-4c54-aece-b5bd77fc35b4")
+	)
+	(text "25"
+		(exclude_from_sim no)
+		(at 228.6 146.05 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "963b8eba-57c6-4edb-a1c0-3a7834d72df9")
+	)
+	(text "COMPONENT/FUNCTION"
+		(exclude_from_sim no)
+		(at 146.304 31.75 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "9764e902-4be6-4183-a348-f10c6730c281")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 63.5 222.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9a64f10c-d6ac-48ed-913c-973047a961ec")
+	)
+	(text "PAGE"
+		(exclude_from_sim no)
+		(at 63.5 31.75 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 132 1)
+			)
+		)
+		(uuid "a19f8618-b8b7-40aa-85bc-81292fa0d099")
+	)
+	(text "07"
+		(exclude_from_sim no)
+		(at 63.5 120.65 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a4c45362-f6cc-4e3d-a05c-3661a47b1a27")
+	)
+	(text "BlockDiagram"
+		(exclude_from_sim no)
+		(at 112.522 82.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a4d8a737-71b0-405b-b957-60a7e9fb3bcb")
+	)
+	(text "[FPGA 4/4] FPGA Ext-Flash"
+		(exclude_from_sim no)
+		(at 302.006 222.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a4ddb433-67c3-45eb-811d-d2fdcbf82ed8")
+	)
+	(text "31"
+		(exclude_from_sim no)
+		(at 228.6 222.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a6cc401e-a272-4654-81f3-cd8ad67c010c")
+	)
+	(text "Leds Debug"
+		(exclude_from_sim no)
+		(at 273.558 158.75 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a6d8cff2-75a8-4d43-91f1-0b1f27cce090")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 98.806 57.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ab594b34-3558-4735-8629-ef2af9b1ba07")
+	)
+	(text "SD Card & Flash"
+		(exclude_from_sim no)
+		(at 118.364 196.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ac8e42f0-6f23-440d-837b-7a29cde6cf91")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 228.6 69.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ae421249-dab5-4736-9f66-fde00a24f0a5")
+	)
+	(text "NOTE:"
+		(exclude_from_sim no)
+		(at 25.146 260.35 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b332d790-8ca8-4824-ad93-0ec52e9ea81b")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 63.5 196.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b91750ad-3ab7-4b26-95eb-db348ad7ca1f")
+	)
+	(text "30"
+		(exclude_from_sim no)
+		(at 228.6 209.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bd94110f-31f9-437e-b86e-54e89b42a32a")
+	)
+	(text "20"
+		(exclude_from_sim no)
+		(at 228.6 82.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d266118f-79dd-4a66-9e28-a2d23610a4d7")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 63.5 184.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d55f81ac-ade6-4144-952b-3517180ff35a")
+	)
+	(text "[SAMA7G54 1/4] PMIC"
+		(exclude_from_sim no)
+		(at 125.476 146.05 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d621ff5b-030d-41e3-ac37-49c13d0cf6c5")
+	)
+	(text "ChangeNote"
+		(exclude_from_sim no)
+		(at 273.558 234.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d6beb282-c010-4804-bd28-cc679acd6fc0")
+	)
+	(text "USB Switch"
+		(exclude_from_sim no)
+		(at 108.458 234.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ea0078e0-d4f8-42ec-84c2-8228efa81c24")
+	)
+	(text "09"
+		(exclude_from_sim no)
+		(at 63.5 146.05 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ea67af98-ebc7-4e23-afc4-4563b374e4a0")
+	)
+	(text "26"
+		(exclude_from_sim no)
+		(at 228.6 158.75 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ecfbef59-9c7c-49bb-81d7-10dcc856662f")
+	)
+	(text "03"
+		(exclude_from_sim no)
+		(at 63.5 69.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ed6e83bd-6295-4487-bc64-9b0394345984")
+	)
+	(text "08"
+		(exclude_from_sim no)
+		(at 63.5 133.35 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f0408c70-4727-422d-8b01-fc42bd3b7bb5")
+	)
+	(text "05"
+		(exclude_from_sim no)
+		(at 63.5 95.25 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f15723a8-66bc-47b2-a479-d6639784e245")
+	)
+	(text "CONNECTOR EXP"
+		(exclude_from_sim no)
+		(at 114.554 120.65 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f6e89369-9131-48db-a17a-ad41b020c912")
+	)
+	(text "Mounting Hole"
+		(exclude_from_sim no)
+		(at 279.4 171.45 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f70da97e-7c1c-4f0b-950b-359077440ac2")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 63.5 234.95 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f9779a98-3643-4679-985f-e7a944a29a9b")
+	)
+	(text "eMMC"
+		(exclude_from_sim no)
+		(at 96.774 209.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f9c8c480-4187-455b-9db0-1afa64c184d9")
+	)
+	(text "Temperature Sensor"
+		(exclude_from_sim no)
+		(at 289.56 57.15 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fccc082a-0c2e-4521-bbb9-ef5dadd2eeb3")
+	)
+	(text "29"
+		(exclude_from_sim no)
+		(at 228.6 196.85 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fccfa0ce-9c05-4f47-94d7-465b8c03467f")
+	)
+	(text "[FPGA 3/4] FPGA IO Part 2"
+		(exclude_from_sim no)
+		(at 302.006 209.55 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fe10da6e-362b-4fea-9f01-bbd5aa29b82f")
+	)
+	(polyline
+		(pts
+			(xy 241.3 25.4) (xy 241.3 241.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0d327636-409f-4b2a-ae42-1052c0d6a1ce")
+	)
+	(polyline
+		(pts
+			(xy 12.7 284.48) (xy 152.4 284.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1955da03-ddb6-42a4-929d-a09eaf2ef759")
+	)
+	(polyline
+		(pts
+			(xy 50.8 101.6) (xy 381 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "246caa45-1be3-4768-9d3e-9c445b766240")
+	)
+	(polyline
+		(pts
+			(xy 50.8 165.1) (xy 381 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2b260b36-2481-4a15-9b91-bad8bef3c8d0")
+	)
+	(polyline
+		(pts
+			(xy 152.4 254) (xy 152.4 284.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3e0f7a6d-262a-472a-880d-9c79de240f96")
+	)
+	(polyline
+		(pts
+			(xy 50.8 203.2) (xy 381 203.2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5b40405f-ebb2-4382-8b77-89d281f42739")
+	)
+	(polyline
+		(pts
+			(xy 215.9 25.4) (xy 215.9 241.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5e493f4e-adcb-4fba-aebd-b3a02abddf09")
+	)
+	(polyline
+		(pts
+			(xy 50.8 76.2) (xy 381 76.2)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "616176ef-2ce1-48e8-a969-c4e10ce7c906")
+	)
+	(polyline
+		(pts
+			(xy 76.2 25.4) (xy 76.2 241.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "66a89713-4e4b-481f-9c49-0a9cc287556c")
+	)
+	(polyline
+		(pts
+			(xy 50.8 114.3) (xy 381 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7450a76a-ab9d-4c8c-b7a4-cef613cf1a04")
+	)
+	(polyline
+		(pts
+			(xy 50.8 228.6) (xy 381 228.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7e463fd5-4b29-465f-b981-13aec9edf63e")
+	)
+	(polyline
+		(pts
+			(xy 50.8 127) (xy 381 127)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "80571c89-664f-442f-ae51-655310868f2b")
+	)
+	(polyline
+		(pts
+			(xy 12.7 254) (xy 12.7 284.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8bd9a9c4-b02c-4943-970e-66e37cda9bad")
+	)
+	(polyline
+		(pts
+			(xy 50.8 190.5) (xy 381 190.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8dc3d312-1851-48a2-9d0e-708c5b1fb606")
+	)
+	(polyline
+		(pts
+			(xy 12.7 254) (xy 152.4 254)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "901d979f-5b05-40f8-bbaa-ac57f335b427")
+	)
+	(polyline
+		(pts
+			(xy 50.8 152.4) (xy 381 152.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "93aa14e0-817b-4e95-b2f1-04b0212f98b3")
+	)
+	(polyline
+		(pts
+			(xy 50.8 215.9) (xy 381 215.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "96caaa5d-f19e-40df-ab2d-c310f741f6b6")
+	)
+	(polyline
+		(pts
+			(xy 76.2 254) (xy 76.2 284.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9ddd6227-0ffe-4799-abc6-263b7de10dd4")
+	)
+	(polyline
+		(pts
+			(xy 50.8 139.7) (xy 381 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a452c257-69e2-4cc2-ad9e-4bd779426f66")
+	)
+	(polyline
+		(pts
+			(xy 50.8 88.9) (xy 381 88.9)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a6c40933-dd42-4c88-be93-75c8f8779768")
+	)
+	(polyline
+		(pts
+			(xy 50.8 177.8) (xy 381 177.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "bb15da8e-b3ef-4277-815a-61bccad8f5af")
+	)
+	(polyline
+		(pts
+			(xy 50.8 38.1) (xy 381 38.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d1e8055a-7e82-45f9-bd6f-7c280b083f37")
+	)
+	(polyline
+		(pts
+			(xy 50.8 63.5) (xy 381 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "de07bd69-c6d5-41dc-8da1-b5e4d9635d43")
+	)
+	(polyline
+		(pts
+			(xy 50.8 50.8) (xy 381 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fce1a4bd-6958-4082-b198-b74a5ba6a06f")
+	)
+)

@@ -1,0 +1,2469 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "943e5dc6-b91e-4dea-a899-da77b73033c7")
+	(paper "A3")
+	(title_block
+		(title "BEE")
+		(date "2026-07-25")
+		(rev "Ver 1.1.0")
+	)
+	(lib_symbols
+		(symbol "IFBschelib_offline:M4.4"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at -18.288 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "9774060360R"
+				(at -18.288 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+				(at -8.128 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+				(at 0 -21.082 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*M4.4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "M4.4_1_0"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.048)
+					(stroke
+						(width 0.762)
+						(type solid)
+						(color 183 183 183 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0.762)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IFBschelib_offline:hole_space"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Hole"
+				(at -12.192 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "hole_space"
+				(at -16.002 -3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "IFBpcblib_offline_Kicad:HEX-M3_NoVia"
+				(at 9.906 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*HOLE_SPACE*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "hole_space_1_0"
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "hole_space_1_1"
+				(circle
+					(center -3.81 0)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center -2.54 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.508)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 215.9 167.64) (xy 215.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31792358-1ac1-4f2a-b3cd-51eb56b04e6c")
+	)
+	(wire
+		(pts
+			(xy 190.5 167.64) (xy 190.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4739b88d-93f4-49ff-9828-edb0c5ebb719")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e530ab-2136-4467-a8d4-429702c04e4c")
+	)
+	(wire
+		(pts
+			(xy 241.3 167.64) (xy 241.3 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ad80f2-e2aa-4753-9a94-0778446ff31b")
+	)
+	(wire
+		(pts
+			(xy 266.7 167.64) (xy 266.7 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9e96c7-7ba0-421f-9828-8ed066ee2db9")
+	)
+	(wire
+		(pts
+			(xy 139.7 139.7) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f0f8a1-8a41-4a85-bece-f1854d6b7591")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 114.3 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a34c61-4876-4df1-9777-b728e010d4be")
+	)
+	(wire
+		(pts
+			(xy 139.7 167.64) (xy 139.7 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d437fb54-cac5-4757-8186-aca868f1f196")
+	)
+	(wire
+		(pts
+			(xy 165.1 167.64) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db625585-cc61-4533-89f3-281fbd74b926")
+	)
+	(wire
+		(pts
+			(xy 190.5 139.7) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71b8b99-e309-4da1-a6a2-5856dad34608")
+	)
+	(wire
+		(pts
+			(xy 215.9 139.7) (xy 215.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe2d373-8023-4ec8-b26f-e486b641881b")
+	)
+	(wire
+		(pts
+			(xy 88.9 167.64) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffce11f0-e3fd-4f8c-96cd-db714ec21ce3")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d27aa6d-0df1-498d-965f-1790b58b10e3")
+		(property "Reference" "#PWR0383"
+			(at 190.5 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bd0f09b-1b2f-4792-9e07-1a29bf382892")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0383")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "232eae52-ebee-4f88-a836-9e65122dd72d")
+		(property "Reference" "#PWR0382"
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b56a6386-62c4-487f-8aea-7cbb094139ba")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0382")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42c38268-09be-4fe9-9426-e016646ab2cd")
+		(property "Reference" "#PWR0384"
+			(at 215.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3732ca0-543f-4159-ba04-483220298a31")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0384")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:hole_space")
+		(at 139.7 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43d88a8a-0858-4349-bb24-2e90a46ada6b")
+		(property "Reference" "Hole1"
+			(at 137.16 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hole_space"
+			(at 146.05 133.3499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:HEX-M3_NoVia"
+			(at 149.606 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c3fa901-54a0-4983-aabd-510175cc3f53")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "Hole1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 266.7 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b9feb79-47ba-4699-8e4f-792038aed9dc")
+		(property "Reference" "H7"
+			(at 265.43 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 267.97 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 258.572 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 266.7 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42b49385-41f8-46b4-ac54-2999f316fc78")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f8bc1d4-bbbb-4c59-a7de-8b6c0cc49036")
+		(property "Reference" "#PWR0379"
+			(at 215.9 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cddfd22c-6685-489f-a5a0-ab2e73faf88d")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0379")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55e3603c-8322-4903-a03f-e3d996d0bbf1")
+		(property "Reference" "#PWR0376"
+			(at 139.7 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3556e445-07f8-4583-b195-692621d9ab3e")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0376")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:hole_space")
+		(at 190.5 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66e6dd77-c890-4f0a-b946-a1f6843139b2")
+		(property "Reference" "Hole3"
+			(at 187.96 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hole_space"
+			(at 196.85 133.3499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:HEX-M3_NoVia"
+			(at 200.406 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5748bf02-575f-4f2c-aaee-baac0ac660d2")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "Hole3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 114.3 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e95e593-7a08-4c50-b438-0ee5b91bbfe4")
+		(property "Reference" "H2"
+			(at 113.03 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 115.57 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 106.172 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 114.3 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb27b34c-3355-48f8-a0e5-54be77cbe6f1")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 88.9 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75d56d7a-502b-48cd-9be4-680b3319af2c")
+		(property "Reference" "H1"
+			(at 87.63 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 90.17 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 80.772 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 88.9 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdaaa621-85bd-40be-abbe-e81ee2a9aa22")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 165.1 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "786e8b73-dc73-4eb2-94ce-3cd5eb8fe0a1")
+		(property "Reference" "H3"
+			(at 163.83 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 166.37 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 156.972 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 165.1 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f50ec3fe-f0d8-4578-a75f-274b8f2ef0d3")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 215.9 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b0e6a67-7896-4c19-97e2-71e6302aaff9")
+		(property "Reference" "H5"
+			(at 214.63 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 217.17 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 207.772 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 215.9 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbe11785-6157-44b8-b3f9-45ea97000a0c")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87ee99f8-602a-4fc6-8cb8-ba5ec1840004")
+		(property "Reference" "#PWR0387"
+			(at 139.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "828e11d1-52e6-490d-a596-d02b6d27336c")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0387")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 241.3 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a6693ec-66fa-41f3-8a12-27d937db7468")
+		(property "Reference" "H6"
+			(at 240.03 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 242.57 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 233.172 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 241.3 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "344ae585-b87c-4df9-b970-741a966d59cf")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5be1af3-f3c6-4778-9f27-4f6fdb2c4f03")
+		(property "Reference" "#PWR0381"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e23b4d9-264a-46f6-8c16-8b5d9eda47c2")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0381")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a731b86d-6f97-4014-9df5-fc55236f9cfa")
+		(property "Reference" "#PWR0380"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea1b9c9b-6c8c-43db-9814-3ab35de7f929")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0380")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf02f3e2-1d04-42b9-b96b-25af32906bbf")
+		(property "Reference" "#PWR0385"
+			(at 241.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "199d153a-dba6-44b5-9a5e-793f6844fa7c")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0385")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 139.7 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d52ca1c3-0ce6-4829-b24a-e9ec7de155f1")
+		(property "Reference" "H8"
+			(at 138.43 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 140.97 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 131.572 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 139.7 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ccc153e-a06f-4edb-affa-fe6b5fe0079b")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:hole_space")
+		(at 165.1 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e055198d-109d-4b54-ba8a-864bd15ddac1")
+		(property "Reference" "Hole2"
+			(at 162.56 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hole_space"
+			(at 171.45 133.3499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:HEX-M3_NoVia"
+			(at 175.006 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1e6dc5b-c790-4f62-9880-82e8dc0e07cd")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "Hole2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:hole_space")
+		(at 215.9 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e86aaf75-475b-4bdd-865d-8cd53dd60ee2")
+		(property "Reference" "Hole4"
+			(at 213.36 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hole_space"
+			(at 222.25 133.3499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:HEX-M3_NoVia"
+			(at 225.806 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "069e035d-069a-4c41-8b45-f253c8b3732f")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "Hole4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2d96d8f-2898-4177-b988-a4bf434e0990")
+		(property "Reference" "#PWR0386"
+			(at 266.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95a2a2e3-f6db-49b9-a610-93c6952e07e5")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0386")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7823776-3f7a-4da1-b86b-c84a13bbcc3e")
+		(property "Reference" "#PWR0377"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe84db8c-78f0-4b59-b0ac-8abc6602ed30")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0377")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IFBschelib_offline:M4.4")
+		(at 190.5 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff9075fd-a071-4ea6-a1af-1ff5dafea5c8")
+		(property "Reference" "H4"
+			(at 189.23 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774060360R"
+			(at 191.77 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IFBpcblib_offline_Kicad:M4.4"
+			(at 182.372 168.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WA-SMSI SMT Steel Spacer with\r\ninternal Thread"
+			(at 190.5 178.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81e8b0ed-69e3-4b72-9430-046f2f1b3084")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffdd1976-229c-4587-ad68-f39becc3dd6c")
+		(property "Reference" "#PWR0378"
+			(at 190.5 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e0ca7f1-cadc-49c1-80f5-bd651be10d4f")
+		)
+		(instances
+			(project "BEE-1012_PAY-IF_V110"
+				(path "/2a5ccb55-f6cf-4e1b-a4e0-74f2863abf33/d74b5e94-4116-4766-bdf2-20ff2a49cbdf"
+					(reference "#PWR0378")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

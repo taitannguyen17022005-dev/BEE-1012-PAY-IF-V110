@@ -1,0 +1,1365 @@
+(footprint "csfBGA121_LAT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.43371 0)
+		(layer "F.SilkS")
+		(uuid "5ea18180-e34b-4aa0-b7f2-96e0e0dd23b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "csfBGA121_LAT"
+		(at 0 3.7099 0)
+		(layer "F.Fab")
+		(uuid "1427ab80-16ba-4339-9a55-f464a29e9fe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f6140c0-9ebd-43c1-9dcc-6fe065a3b8aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c09fb6b-fa14-4461-bdee-2a6d198d2c9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.54 -3.556)
+		(end -2.54 -3.60671)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "df262b3e-1241-4ca1-bf0e-06efa00ece4a")
+	)
+	(fp_line
+		(start -2.9972 -2.9972)
+		(end 2.9972 -2.9972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "73cdba36-4e3f-47d2-bee2-167b08a142a2")
+	)
+	(fp_line
+		(start -2.9972 -2.7472)
+		(end -2.7472 -2.9972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "08f8f17c-1106-4867-bfe5-d33f3b897c26")
+	)
+	(fp_line
+		(start -2.9972 2.9972)
+		(end -2.9972 -2.9972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "9622e32e-cdd5-41d9-9641-29f932fc9e34")
+	)
+	(fp_line
+		(start -2.9972 2.9972)
+		(end 2.9972 2.9972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "2024d940-490a-4332-8d83-62b349e175d4")
+	)
+	(fp_line
+		(start 2.9972 2.9972)
+		(end 2.9972 -2.9972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "22c697cc-cfca-4764-9afe-34c99b26fa27")
+	)
+	(pad "A1" smd circle
+		(at -2.5 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b02e8a18-0f38-4775-97e1-575084c0ea82")
+	)
+	(pad "A2" smd circle
+		(at -2 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "176a238e-f3db-433d-9099-0f0a85beead2")
+	)
+	(pad "A3" smd circle
+		(at -1.5 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "4cd831db-41ee-4379-b4d4-f63383d386b7")
+	)
+	(pad "A4" smd circle
+		(at -1 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "60ea90f7-a9f8-4745-99c7-242133264148")
+	)
+	(pad "A5" smd circle
+		(at -0.5 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "758689be-5ee7-4f64-8165-512746cf867b")
+	)
+	(pad "A6" smd circle
+		(at 0 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "12a5a8f5-6972-4fe2-8a7e-9a56196a22aa")
+	)
+	(pad "A7" smd circle
+		(at 0.5 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "fdbeeeaa-dd93-42e1-a388-4dc8e5e99d05")
+	)
+	(pad "A8" smd circle
+		(at 1 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "44cf063d-2b1f-48dc-8372-90ddf0add80f")
+	)
+	(pad "A9" smd circle
+		(at 1.5 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "e59e696b-6af9-4177-a223-c64baa339d3d")
+	)
+	(pad "A10" smd circle
+		(at 2 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "adde1974-ac51-42be-aa5c-94e54fc8b655")
+	)
+	(pad "A11" smd circle
+		(at 2.5 -2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "ef023e80-718e-44d9-8d6f-6b2eb414a72b")
+	)
+	(pad "B1" smd circle
+		(at -2.5 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "03437cc4-f729-42c6-a417-28e213d02649")
+	)
+	(pad "B2" smd circle
+		(at -2 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "a126f4a7-cbe5-4d04-94d6-b4a168367e9f")
+	)
+	(pad "B3" smd circle
+		(at -1.5 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "996e7888-5b0d-43b2-8ba6-30dea404c76d")
+	)
+	(pad "B4" smd circle
+		(at -1 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "c9fb7c22-3780-4fe9-a674-6dac5bd78e60")
+	)
+	(pad "B5" smd circle
+		(at -0.5 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "9d965704-ab51-4961-a6a4-c414791f7720")
+	)
+	(pad "B6" smd circle
+		(at 0 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "29a97b8b-0e6c-455f-b321-d47c39faa1c2")
+	)
+	(pad "B7" smd circle
+		(at 0.5 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "f4c5d920-fd9e-46cc-9654-fee774cbd7df")
+	)
+	(pad "B8" smd circle
+		(at 1 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "4ed95d44-84d9-4686-9d37-3390becc7a61")
+	)
+	(pad "B9" smd circle
+		(at 1.5 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "6719cc11-29d7-494f-b0c9-02a033030e2b")
+	)
+	(pad "B10" smd circle
+		(at 2 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "42382928-d78a-4dae-9380-8be252e0c91d")
+	)
+	(pad "B11" smd circle
+		(at 2.5 -2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b7106893-98bd-4bfc-8027-b08fa3896d15")
+	)
+	(pad "C1" smd circle
+		(at -2.5 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "819491c9-5195-43e5-b108-d328d22d8310")
+	)
+	(pad "C2" smd circle
+		(at -2 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "6f5e8f0b-b673-4339-8db0-12f50f2d82af")
+	)
+	(pad "C3" smd circle
+		(at -1.5 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "d053b1a4-4fcd-4585-8742-bce7f5c4eb86")
+	)
+	(pad "C4" smd circle
+		(at -1 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "efa38ca5-fa87-474e-b606-0005a19fe194")
+	)
+	(pad "C5" smd circle
+		(at -0.5 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "15a80fe7-6e8e-4aae-aa9b-7a1f3c898bfe")
+	)
+	(pad "C6" smd circle
+		(at 0 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "67078c4d-be86-46ff-987c-fdc3dae19f70")
+	)
+	(pad "C7" smd circle
+		(at 0.5 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "83c6fbeb-b222-49c8-a592-6794d5103c7e")
+	)
+	(pad "C8" smd circle
+		(at 1 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "253e7401-5e40-425b-86a9-f363866d5674")
+	)
+	(pad "C9" smd circle
+		(at 1.5 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "27390330-ac86-4e3a-8eeb-41ae222dce88")
+	)
+	(pad "C10" smd circle
+		(at 2 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "bb6807de-6cdb-4861-af28-8e076235bd57")
+	)
+	(pad "C11" smd circle
+		(at 2.5 -1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "34cb1782-4276-4338-925f-540f4afd05cb")
+	)
+	(pad "D1" smd circle
+		(at -2.5 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3035cbc2-8eef-46d0-8894-e281ce26fe90")
+	)
+	(pad "D2" smd circle
+		(at -2 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "f722db82-fe30-4f37-b8aa-22109bbead02")
+	)
+	(pad "D3" smd circle
+		(at -1.5 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "98881e22-69ef-4658-852e-d613ec76b6b4")
+	)
+	(pad "D4" smd circle
+		(at -1 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "052bb0bc-e326-45fb-b363-91a3bc676953")
+	)
+	(pad "D5" smd circle
+		(at -0.5 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8522f2f8-a3d8-40d7-b0e9-83890d6b4a39")
+	)
+	(pad "D6" smd circle
+		(at 0 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "c8fe8c6e-c415-42a3-86c9-8293e46e5f4d")
+	)
+	(pad "D7" smd circle
+		(at 0.5 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3ecec372-bc55-4d83-88b5-60d852ec28f1")
+	)
+	(pad "D8" smd circle
+		(at 1 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "0a4254fa-c0e8-4263-a4b2-2d6da37b6182")
+	)
+	(pad "D9" smd circle
+		(at 1.5 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "a59e90c2-e212-4cb6-a6eb-03d48521e752")
+	)
+	(pad "D10" smd circle
+		(at 2 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "a47cc4d3-47f9-40cd-b5e1-855ceb53814c")
+	)
+	(pad "D11" smd circle
+		(at 2.5 -1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "be22d524-b1d5-4f3d-93c1-6b1621656c7d")
+	)
+	(pad "E1" smd circle
+		(at -2.5 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "d4919cc9-c2e3-4c9c-822d-860925da6e82")
+	)
+	(pad "E2" smd circle
+		(at -2 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b54a28e9-cadd-462f-95f8-3c45828e286a")
+	)
+	(pad "E3" smd circle
+		(at -1.5 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "2fb968b3-bf80-4213-b821-9c8ecb1428c0")
+	)
+	(pad "E4" smd circle
+		(at -1 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8401af29-08dc-483e-b7f6-9207f23093f1")
+	)
+	(pad "E5" smd circle
+		(at -0.5 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "85b858f0-9d07-47cf-92e0-ddadf782ee1e")
+	)
+	(pad "E6" smd circle
+		(at 0 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "875db311-9f89-47e8-962e-c488369f1655")
+	)
+	(pad "E7" smd circle
+		(at 0.5 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "9223911c-6f93-4a6a-b080-6e8964925068")
+	)
+	(pad "E8" smd circle
+		(at 1 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "e19942b1-26d9-4529-a7dc-6f49a24e67f5")
+	)
+	(pad "E9" smd circle
+		(at 1.5 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3148a1a2-1f76-41a2-bcc3-091b79b40d8b")
+	)
+	(pad "E10" smd circle
+		(at 2 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "97d22a45-d472-4c1d-b141-26749d56dc0a")
+	)
+	(pad "E11" smd circle
+		(at 2.5 -0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b6ba5e4c-660c-44ba-91c1-146875114b7b")
+	)
+	(pad "F1" smd circle
+		(at -2.5 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "195289c6-f812-441a-95cc-197d15c85e93")
+	)
+	(pad "F2" smd circle
+		(at -2 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "444937fd-d6b0-422b-850f-9985f04e9f8a")
+	)
+	(pad "F3" smd circle
+		(at -1.5 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "fbd32209-deb0-44b0-abb8-9a25c18a6cb8")
+	)
+	(pad "F4" smd circle
+		(at -1 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "cfce5d9e-fbc1-43a1-bcc0-277feaa5db3e")
+	)
+	(pad "F5" smd circle
+		(at -0.5 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "65fd696e-f669-42f9-9235-a764672535d3")
+	)
+	(pad "F6" smd circle
+		(at 0 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "f22f8d05-06dd-4661-ab33-f9f56c7f0207")
+	)
+	(pad "F7" smd circle
+		(at 0.5 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8eb06fa1-f272-4dca-b422-e7d0341a6c0d")
+	)
+	(pad "F8" smd circle
+		(at 1 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "02ccfdc3-59dd-4516-9cea-0b021bdd4403")
+	)
+	(pad "F9" smd circle
+		(at 1.5 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "494739fa-423f-40fe-81f8-28df176185df")
+	)
+	(pad "F10" smd circle
+		(at 2 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3aeb25d8-6aba-4197-8077-ad333970a707")
+	)
+	(pad "F11" smd circle
+		(at 2.5 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "08b6e259-6978-4ff5-84f3-aa1eea2988ba")
+	)
+	(pad "G1" smd circle
+		(at -2.5 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "5d503f12-269e-422b-a474-5f69eb193b81")
+	)
+	(pad "G2" smd circle
+		(at -2 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "a0adba9d-8ef4-4888-adaf-efdb4e8ff504")
+	)
+	(pad "G3" smd circle
+		(at -1.5 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "5777b890-e6f8-49c5-ab42-d72e02d0b2d4")
+	)
+	(pad "G4" smd circle
+		(at -1 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "c18d5183-8233-4400-b6f1-bfa91da046db")
+	)
+	(pad "G5" smd circle
+		(at -0.5 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "54fed318-ed25-4c59-900f-5eb51f12c898")
+	)
+	(pad "G6" smd circle
+		(at 0 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "77e926ef-9f7c-409a-abf5-79d247d7071a")
+	)
+	(pad "G7" smd circle
+		(at 0.5 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "1c4b9155-d407-47bc-82df-fcda764cc054")
+	)
+	(pad "G8" smd circle
+		(at 1 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "991654d6-b028-47c4-9938-d351cd8a96af")
+	)
+	(pad "G9" smd circle
+		(at 1.5 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "87f645e3-272a-4dd3-8eb8-54256d1c9be9")
+	)
+	(pad "G10" smd circle
+		(at 2 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "6a7faf33-5251-425c-87bd-6afaaa447d29")
+	)
+	(pad "G11" smd circle
+		(at 2.5 0.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b03f6f34-7873-42ee-ba70-e5273d1a00c4")
+	)
+	(pad "H1" smd circle
+		(at -2.5 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3242a7d6-5591-48c6-bf0c-3396cd19b29f")
+	)
+	(pad "H2" smd circle
+		(at -2 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3ff2e5b5-a8fc-4c82-bba2-4d8e94d0ec7f")
+	)
+	(pad "H3" smd circle
+		(at -1.5 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "87418744-ae42-4791-be63-a0080189c2dc")
+	)
+	(pad "H4" smd circle
+		(at -1 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b4212372-799d-4ea5-87b4-3b34e077f4fc")
+	)
+	(pad "H5" smd circle
+		(at -0.5 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "500e06d3-4603-4d59-acb8-8ab90a602111")
+	)
+	(pad "H6" smd circle
+		(at 0 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "a6156f3a-8353-4747-b81e-0fb1294299cd")
+	)
+	(pad "H7" smd circle
+		(at 0.5 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "7edadf95-34ef-48bd-81fd-2a03086ba2b0")
+	)
+	(pad "H8" smd circle
+		(at 1 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "a649a9de-cacf-42c9-b478-1caed643388a")
+	)
+	(pad "H9" smd circle
+		(at 1.5 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "7e77a6de-3a9b-4ac0-bdef-1ae5d44befeb")
+	)
+	(pad "H10" smd circle
+		(at 2 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "9568f7bc-f1ec-493d-9c84-a3a2120c8a0e")
+	)
+	(pad "H11" smd circle
+		(at 2.5 1)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "b6b0c879-4d68-464f-ac95-39b20929bb78")
+	)
+	(pad "J1" smd circle
+		(at -2.5 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8d964332-ff31-41b5-9ba5-6c8907a4b5e8")
+	)
+	(pad "J2" smd circle
+		(at -2 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "936ccddc-829d-4975-bc72-1d7ef6049685")
+	)
+	(pad "J3" smd circle
+		(at -1.5 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8f99a370-4348-440e-aca3-801d6f390bf0")
+	)
+	(pad "J4" smd circle
+		(at -1 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "aadca80b-ebc6-44f1-b816-de475d796bf5")
+	)
+	(pad "J5" smd circle
+		(at -0.5 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "ed5d8d84-8619-4805-a8a9-dc324ebb8e91")
+	)
+	(pad "J6" smd circle
+		(at 0 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "1f3edd42-b209-48b5-9c81-effa95c737e6")
+	)
+	(pad "J7" smd circle
+		(at 0.5 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3d928b2a-e410-4c79-8f16-c818e24524ae")
+	)
+	(pad "J8" smd circle
+		(at 1 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "f77b8fd6-4e95-469d-8ef0-c599bf14a240")
+	)
+	(pad "J9" smd circle
+		(at 1.5 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8100a3c8-4780-4aec-ad31-ccd5db0fad70")
+	)
+	(pad "J10" smd circle
+		(at 2 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "3bc8055e-edec-445f-b63f-bc364304a774")
+	)
+	(pad "J11" smd circle
+		(at 2.5 1.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "46f29a80-5797-4858-9a76-deb4c630c973")
+	)
+	(pad "K1" smd circle
+		(at -2.5 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "f09846d1-86e9-4ab1-9f3c-a0d44379cdd7")
+	)
+	(pad "K2" smd circle
+		(at -2 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8d570083-4357-40f6-8a7d-801400e102a5")
+	)
+	(pad "K3" smd circle
+		(at -1.5 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "51b9a92e-faaa-400e-950c-e1b7e9442dd8")
+	)
+	(pad "K4" smd circle
+		(at -1 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "93523fe0-eaf4-45fa-9c41-914e1283c626")
+	)
+	(pad "K5" smd circle
+		(at -0.5 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "8315ca61-5933-4960-a2d2-992456127c2c")
+	)
+	(pad "K6" smd circle
+		(at 0 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "08779d48-3a2c-4bd6-8761-3cc0dcc55d8f")
+	)
+	(pad "K7" smd circle
+		(at 0.5 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "460a27ba-ae18-4067-8a88-31cc61b8bcf7")
+	)
+	(pad "K8" smd circle
+		(at 1 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "36587642-9400-4151-b847-e3052304aa3c")
+	)
+	(pad "K9" smd circle
+		(at 1.5 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "cc9ffaa2-f441-40b3-87d6-afa15a3d96e1")
+	)
+	(pad "K10" smd circle
+		(at 2 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "30d7e870-5a6f-4c6d-81ff-388b093f0aed")
+	)
+	(pad "K11" smd circle
+		(at 2.5 2)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "58d5230e-680d-4628-9b14-4cb946388231")
+	)
+	(pad "L1" smd circle
+		(at -2.5 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "48280eb9-abf1-45a4-8dc4-8c1f35edd1c9")
+	)
+	(pad "L2" smd circle
+		(at -2 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "ddbb3e5f-7d7b-425a-9d3b-9f1489e0cbe0")
+	)
+	(pad "L3" smd circle
+		(at -1.5 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "77c3d7bf-7df3-4e58-bbf0-f321be93ff09")
+	)
+	(pad "L4" smd circle
+		(at -1 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "4ea11735-84b3-4e24-8be5-c0446f13a6b5")
+	)
+	(pad "L5" smd circle
+		(at -0.5 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "399fe79d-1c7b-4fa4-8cbe-5f7d39bb02e1")
+	)
+	(pad "L6" smd circle
+		(at 0 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "da11c155-77ee-42dd-9e2c-b070bc55da34")
+	)
+	(pad "L7" smd circle
+		(at 0.5 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "aa339907-1005-482d-bf67-04b60d41af81")
+	)
+	(pad "L8" smd circle
+		(at 1 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "55510b7c-c0b0-4ce6-8d3a-a1dd0a034d67")
+	)
+	(pad "L9" smd circle
+		(at 1.5 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "58d6ace0-a1cd-4856-8015-c60a40c97751")
+	)
+	(pad "L10" smd circle
+		(at 2 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "ab3a1558-4d53-4abf-a4ce-8ba413cffdc1")
+	)
+	(pad "L11" smd circle
+		(at 2.5 2.5)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "df67138e-f37c-4adf-ad5e-14191f54808f")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "csfBGA121_LAT.step")
+			(type model)
+			(data |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
+				ZqvVaDQy2tiY2N3u/27/63Xf73u+p9Pn8rOSn9XrVVXlcrVcLBbVlJRvSupsNt93uWyX65omj8Xk
+				sfh6Vuv7Vl/XbVmqpyx1KpUez2g8jcWiWZLEkiQOh0LhndGdTkWmEslUIhERDQ0JCd0I2dh8ajzS
+				qfF0OBwampkZmZk7MbnLlZzlXparXOUoRzmSI7mRIzmRE7k7u1+d3a/OfOaznvWMZzyjM57N2ZzJ
+				2ZmZmTzM7czsVlZms9VqtBoZ2ZjYnexid/v/1+u+3/s8T5/L6Wouv7Kyer2qqlxVrRaLamqkqKak
+				zmez+b7Lt23XNHnGNHksFl+vVutrrVbdljVqy1KnU6n0eDQez7NolkKaJUkkDodC4ZHQyOhUZPKD
+				lIpMJRKJiGhoSGjobmw+NeL51Hg6HQ6HhmaGRkbmxMQu5ocpMXuJWcxiFasYxShGYhQbsRETsTs7
+				+f3s97rX3Xffe++d997pTve5y/3sDMwud2a//fayl91222u3nXbayT52scv9I3a//fb//19//f7r
+				79+fP/3zi/w08l/96la3+uuvV/11111vnXWqy9RJU5e61M8/33zz75tffvn269MX8kvyxx9ffPGv
+				v97669+/r959e2Hvsqee+umnl17646U33vjzxZuX8uXy5MkTT/zwwws//NGPbvTTiy6mv0wvvXTS
+				SSc60YdOdKEL/eY2/1xqbq+555533jnnnNOc85nPXOYnN7lcfnZ5yUtuueWVV0555SQn+chFfid2
+				JfKzq1/9qq7qyle+6pWveMUruporuZKbkzszs9utrMxWVqvRyMYsRjYmdj+7/f/rv+/3PH3O0+dy
+				+Z2V1cuqqsrVYpmqxaKampKSujPffZftmrZrmkwej8XiE1utb9Vtq9wWW2xRi1rTmpa0AhQMxkLV
+				qkxNRaqKchYqmRIpubMzs5vLbLuV2Vyr0WhmZGRjvL465aM79XxqPLXUUh9t9OmijT5dtGnTpUsf
+				TZo00RpE5pjG5CELWcg2tvGLHNdJYh7diEcsYhHb1a5ueSUyjUlMNzcnd1az25nZrWVlNptcrUar
+				Bt9WWaWX3vn80qsru6Stmi4VVaemyuezW7su2wzKbdmSS+54XO31Wue2bbVuGVTLs2i21FI7rfRY
+				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
+				IITMTuTE/w47qKc+VcL20x+F/g==|
+			)
+			(checksum "91A8104C62E65A14404E29E7241490C8")
+		)
+	)
+	(model "kicad-embed://csfBGA121_LAT.step"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

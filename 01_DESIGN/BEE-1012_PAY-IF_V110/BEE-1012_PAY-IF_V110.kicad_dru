@@ -1,0 +1,7 @@
+(version 1)
+(rule "FPGA"
+	(constraint clearance (min 0.075mm))
+	(constraint track_width (min 0.1mm))
+    (constraint via_diameter (min 0.4mm))
+    (constraint hole_size (min 0.2mm))
+    (condition "A.insideArea('FPGA')"))
